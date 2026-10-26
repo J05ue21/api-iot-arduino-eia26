@@ -1,13 +1,18 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API para controlar un motor Arduino y leer sensor ultrasónico",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"No tests configured\" && exit 0"
   },
-  "keywords": [],
+  "keywords": [
+    "arduino",
+    "iot",
+    "api",
+    "express"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
