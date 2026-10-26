@@ -13,7 +13,7 @@ let sistema = {
     distancia: 0
 };
 
-// Endpoint para que el Arduino o la Web consulten el estado actual
+// Endpoint para que el Arduino o la Web consulten el estado actual del motor y sensor (distancia)
 app.get('/api/estado', (req, res) => {
     res.json(sistema);
 });
